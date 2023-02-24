@@ -2,16 +2,17 @@ import { Container, Content } from "./styles"
 import { FiArrowLeft, FiClock } from "react-icons/fi"
 import { Header } from "../../components/Header"
 import { Tag } from "../../components/Tag"
+import { Link } from "react-router-dom"
 
 export function Details() {
   return (
     <Container>
       <Header />
       <Content>
-        <a href="/">
+        <Link to="/">
           <FiArrowLeft />
           Voltar
-        </a>
+        </Link>
         <header>
           <div className="movie-info">
             <h1>Interestellar</h1>
