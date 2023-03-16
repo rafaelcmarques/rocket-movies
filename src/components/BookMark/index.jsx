@@ -1,11 +1,16 @@
 import { Container } from "./styles"
 import { FiX, FiPlus } from "react-icons/fi"
 
-export function BookMark({ value, isNew, onClick, ...rest }) {
+export function BookMark({ value, isNew, onClick, placeholder, ...rest }) {
   return (
     <Container isNew={isNew}>
-      {value}
-      {isNew ? <FiPlus /> : <FiX />}
+      <input
+        type="text"
+        value={value}
+        readOnly={!isNew}
+        placeholder={placeholder}
+      />
+      <button>{isNew ? <FiPlus /> : <FiX />}</button>
     </Container>
   )
 }

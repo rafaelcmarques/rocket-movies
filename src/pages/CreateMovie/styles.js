@@ -56,9 +56,9 @@ export const Form = styled.form`
   .bookmarks {
     display: flex;
     align-items: center;
+    flex-wrap: wrap;
     gap: 2.4rem;
     padding: 1.6rem;
-    height: 8.8rem;
 
     background-color: #0d0c0f;
     border-radius: 1rem;

@@ -25,9 +25,9 @@ export function CreateMovie() {
           <div>
             <h2>Marcadores</h2>
             <div className="bookmarks">
+              <BookMark isNew placeholder={"Nova tag"} />
               <BookMark value={"Aventura"} />
-              <BookMark value={"Família"} />
-              <BookMark isNew value={"Novo Marcador"} />
+              <BookMark value={"Familia"} />
             </div>
             <div className="button-wrapper">
               <button>Excluir Filme</button>

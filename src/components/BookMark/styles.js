@@ -20,4 +20,16 @@ export const Container = styled.div`
   svg {
     color: ${({ theme }) => theme.COLORS.BASE_COLOR};
   }
+
+  input {
+    background: none;
+    border: none;
+    color: ${({ theme }) => theme.COLORS.WHITE};
+    width: 18rem;
+  }
+
+  button {
+    background: none;
+    border: none;
+  }
 `
