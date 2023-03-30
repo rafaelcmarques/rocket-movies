@@ -46,6 +46,7 @@ export const Form = styled.form`
     border: none;
     border-radius: 1rem;
     background-color: ${({ theme }) => theme.COLORS.BACKGROUND_900};
+    color: ${({ theme }) => theme.COLORS.WHITE};
   }
 
   > div:nth-child(4) {

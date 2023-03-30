@@ -1,25 +1,36 @@
-import { Container, Profile } from "./styles"
-import { FiSearch } from "react-icons/fi"
-import { Input } from "../Input"
-import { Link } from "react-router-dom"
+import { Link, useNavigate } from "react-router-dom"
 
-export function Header() {
+import { Container, Profile, Search } from "./styles"
+import avatarPlaceholder from "../../assets/avatar_placeholder.svg"
+
+import { useAuth } from "../../hooks/auth"
+import { api } from "../../service/api"
+
+export function Header({ children }) {
+  const { signOut, user } = useAuth()
+  const avatarUrl = user.avatar
+    ? `${api.defaults.baseURL}/files/${user.avatar}`
+    : avatarPlaceholder
+  const navigate = useNavigate()
+
+  function handleSignOut() {
+    signOut()
+    navigate("/")
+  }
+
   return (
     <Container>
       <h1>RocketMovies</h1>
 
-      <Input placeholder="Pesquisar pelo título" icon={FiSearch} />
+      <Search>{children}</Search>
 
       <Profile>
         <div>
-          <Link to="/profile">Rafael Marques</Link>
-          <span>sair</span>
+          <Link to="/profile">{user.name}</Link>
+          <button onClick={handleSignOut}>sair</button>
         </div>
         <Link to="/profile">
-          <img
-            src="https://github.com/rafaelcmarques.png"
-            alt="Foto do usuario"
-          />
+          <img src={avatarUrl} alt="Foto do usuario" />
         </Link>
       </Profile>
     </Container>

@@ -14,6 +14,7 @@ export const Container = styled.div`
     border: none;
     background: none;
     color: ${({ theme }) => theme.COLORS.WHITE};
+    width: 100%;
   }
 
   svg {

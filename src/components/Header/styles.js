@@ -18,6 +18,10 @@ export const Container = styled.header`
   }
 `
 
+export const Search = styled.div`
+  width: 100%;
+`
+
 export const Profile = styled.div`
   display: flex;
   align-items: center;
@@ -35,8 +39,8 @@ export const Profile = styled.div`
   > div {
     display: flex;
     flex-direction: column;
-    text-align: right;
     width: 19.8rem;
+    align-items: flex-end;
 
     a {
       font-weight: 700;
@@ -45,11 +49,15 @@ export const Profile = styled.div`
       color: ${({ theme }) => theme.COLORS.WHITE};
     }
 
-    span:nth-child(2) {
+    button {
+      background-color: transparent;
+      border: none;
       font-weight: 400;
       font-size: 1.4rem;
       line-height: 1.8rem;
       color: ${({ theme }) => theme.COLORS.GRAY_100};
+
+      width: fit-content;
     }
   }
 `

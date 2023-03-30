@@ -80,4 +80,15 @@ export const Content = styled.div`
       text-align: justify;
     }
   }
+
+  .button-wrapper {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: flex-end;
+
+    > button {
+      width: fit-content;
+    }
+  }
 `
