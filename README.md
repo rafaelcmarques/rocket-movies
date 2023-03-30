@@ -37,13 +37,13 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 
 ## ⚙️ Repositório de código Back-end
 
-**Para acessar o repositório de código front-end, clique no link abaixo.**
+**Para acessar o repositório de código Back-end, clique no link abaixo.**
 
 - [RocketMovies - Repositório Front-end](https://github.com/rafaelcmarques/api-rocketmovies)
 
 ## 💻 Projeto
 
-O RocketMovies foi um desafio realizado no final do Stage 09/10 - React, da trilha Explorer da Rocketseat
+O RocketMovies foi um desafio realizado no final do Stage 09 e 10 - React, da trilha Explorer da Rocketseat
 
 O projeto consiste em uma página construída totalmente em React, simulando uma aplicação onde o usuário poderá fazer anotações sobre seus filmes
 e séries, podendo atribuir notas e críticas a respeito dos mesmos.
