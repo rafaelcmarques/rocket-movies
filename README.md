@@ -39,7 +39,7 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 
 **Para acessar o repositório de código Back-end, clique no link abaixo.**
 
-- [RocketMovies - Repositório Front-end](https://github.com/rafaelcmarques/api-rocketmovies)
+- [RocketMovies - Repositório Back-end](https://github.com/rafaelcmarques/api-rocketmovies)
 
 ## 💻 Projeto
 
