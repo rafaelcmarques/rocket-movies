@@ -1,10 +1,10 @@
 <h1 align="center"> Rocket Movies  </h1>
 
-- [🔧 Deploy](#deploy)
-- [🖥️ Telas](#telas)
-- [🚀 Tecnologias](#tecnologias)
-- [⚙️ Repositório de código Back-end](#reposit-rio-de-c-digo-back-end)
-- [💻 Projeto](#projeto)
+- [🔧 Deploy](#-deploy)
+- [🖥️ Telas](#-telas)
+- [🚀 Tecnologias](#-tecnologias)
+- [⚙️ Repositório de código Back-end](#-reposit-rio-de-c-digo-back-end)
+- [💻 Projeto](#-projeto)
 
 <br>
 
