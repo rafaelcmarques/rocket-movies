@@ -1,13 +1,19 @@
 <h1 align="center"> Rocket Movies  </h1>
 
 <p align="center">
-  <a href="#-tecnologias">Tecnologias</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#-backend">Repositório Back-end</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#-projeto">Projeto</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-
+- [🔧 Deploy](#---deploy)
+- [🖥️ Telas](#----telas)
+- [🚀 Tecnologias](#---tecnologias)
+- [⚙️ Repositório de código Back-end](#---reposit-rio-de-c-digo-back-end)
+- [💻 Projeto](#---projeto)
 </p>
 
 <br>
+
+## 🔧 Deploy
+
+Para acessar o deploy e testar todas as funcionalidades, basta clicar no link abaixo:
+[Deploy RocketMovies](https://rafaelmaques-rocketmovies.netlify.app/)
 
 ## 🖥️ Telas
 
