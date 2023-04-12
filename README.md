@@ -10,8 +10,9 @@
 
 ## 🔧 Deploy
 
-Para acessar o deploy e testar todas as funcionalidades, basta clicar no link abaixo:
-<br> -[Deploy RocketMovies](https://rafaelmaques-rocketmovies.netlify.app/)
+**Para acessar o deploy e testar todas as funcionalidades, basta clicar no link abaixo:**
+
+- [Deploy RocketMovies](https://rafaelmaques-rocketmovies.netlify.app/)
 
 ## 🖥️ Telas
 
